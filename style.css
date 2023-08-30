@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'DM Sans', sans-serif;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.playlist>a{
+    text-decoration: none;
+    color : #FFFFFF;
+    padding-left: 18px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.06em;
+    text-align: left;
+color: whitesmoke;
+
+}
+.left{
+    width: 20%;
+    height:85%;
+    top: 1px;
+    padding: 10px;
+    display: flex;
+    background-color: black;
+}
+.nav{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .8rem;
+    background-color: #000000;
+    height: 100%;
+    overflow-y: scroll;
+}
+.logo{
+    width: 202.5760955810547px;
+    height: 60.525787353515625px;
+    top: 39.2918701171875px;
+    left: 35.8214111328125px;
+    
+}
+.home, .search, .library, .playlist,
+ .liked-songs, .episodes, .install-icon{
+    display: flex;
+   
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    width: 95%;
+    transition: all 0.2s ease-in-out;
+ }
+ .home:hover, .search:hover, 
+ .library:hover, .playlist:hover,
+ .liked-songs:hover, .episodes:hover, .install-icon:hover{
+  cursor: pointer;
+  background-color: #212121;
+
+ }
+ .playlist-container,.home-container,.fav-tags{
+    display: flex;
+    flex-direction: column;
+ }
+ .active{
+    background-color: #282828;
+ }
+ .fav-tags>h2{
+    padding: 3px 5px;
+ }
+ .left-nav{
+    padding-left: 18px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.06em;
+    text-align: left;
+color: whitesmoke;
+ }
+ .left-nav>img{
+width: 22px;
+margin-right: 15px;
+ }
+ .install-icon{
+    margin-bottom: 10px;
+    margin-top: -10px ;
+ }
+ .left-nav-1{
+    color: whitesmoke;
+font-size: 19px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.0525em;
+text-align: left;
+ }
+.playlist>img{
+    width: 37.056602478027344px;
+height: 37.056602478027344px;
+top: 372.80126953125px;
+left: 37.05657958984375px;
+border-radius: 1px;
+background: #FFFFFF;
+}
+.episodes>img{
+    width: 37.056602478027344px;
+height: 37.056602478027344px;
+top: 496.3232421875px;
+left: 37.05657958984375px;
+border-radius: 5px;
+background: #004638;
+
+}
+.install-icon{
+    width: 170.4603729248047px;
+height: 30.880502700805664px;
+top: 936.0615234375px;
+left: 37.05657958984375px;
+}
+.fav-tags{
+    padding-top: 5px;
+}
+.playlist-container{
+    width: 209.9874267578125px;
+height: 160.57861328125px;
+top: 372.80126953125px;
+left: 37.05657958984375px;
+padding-bottom: 10px;
+
+}
+.home-container{
+    width: 347.09686279296875px;
+height: 170.4604034423828px;
+top: 138.109375px;
+left: 12.3521728515625px;
+border-radius: 6px;
+
+}
