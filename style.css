@@ -17,9 +17,9 @@ background-color: black;
     color : #FFFFFF;
     padding-left: 18px;
     font-size: 19px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 25px;
-    letter-spacing: -0.06em;
+    /* letter-spacing: -0.06em; */
     text-align: left;
 color: whitesmoke;
 
@@ -31,19 +31,20 @@ color: whitesmoke;
     background-color: black; 
     margin:0px ;
 }
+
 .left{
-    /* position: relative; */
+   padding-left: 10px;
     margin-left: 10px;
     padding-top: 10px;
-    height: 85%;
+    height: 80%;
     width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: .8rem;
+    gap: 10px;
     background-color: #000000;
     height: 100%;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 .logo{
     width: 202.5760955810547px;
@@ -82,17 +83,24 @@ color: whitesmoke;
     background-color: #282828;
  }
  .fav-tags{
-    padding: 3px 15px !important;
+    padding-inline: 10px;
  }
  .left-nav{
     padding-left: 18px;
     font-size: 19px;
-    font-weight: 700;
-    line-height: 25px;
+    /* font-weight: 700; */
+    /* line-height: 25px; */
     text-align: left;
 color: whitesmoke;
  }
+ .leftnavimg{
+  box-sizing: border-box;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+ }
  .left-nav>img{
+  box-sizing: border-box;
 width: 22px;
 margin-right: 15px;
  }
@@ -103,12 +111,12 @@ margin-right: 15px;
  .left-nav-1{
     color: whitesmoke;
 font-size: 16px;
-font-weight: 700;
-line-height: 25px;
+/* font-weight: 700; */
+/* line-height: 25px; */
 text-align: left;
  }
  .right{
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
      width: 90%;
      height: 100%;
      background-color: #212121; 
@@ -237,8 +245,14 @@ margin:8px 0px;
     padding: 3px;
     font-size: 14px;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cards>p{
+  display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 12px;
     padding-top: 0px;
 }
@@ -386,5 +400,47 @@ margin:8px 0px;
     position: sticky;
     bottom: 0px;
     padding: 0px;
+ }
 
+
+
+ @media screen and (min-width:341px) and (max-width:460px){
+  body{
+background-color: black;
+  }
+  .green-notice,.volume,.playControls,.left{
+    display: none;
+  }
+  .right{
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+  }
+.one{
+  width: 100%;
+}
+.show-cards{
+  padding-right: 0px;
+}
+.shows{
+  padding: 0px 30px;
+}
+.cards{
+  padding: 5px;
+}
+.cards>img{
+  width: 115px;
+}
+.shows>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+.bottom-part{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
  }
