@@ -228,9 +228,10 @@ margin:8px 0px;
     justify-content: space-between ;
 }
 .cards{
+  
     width: 210px;
     height: 250px;
-    padding-inline: 10px;
+    padding-inline: 10px !important;
     background-color: #181818;
     /* padding: 15px; */
     transition: all 0.2s ease-in-out;
