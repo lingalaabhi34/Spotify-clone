@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Playlist</title>
-    <link rel="stylesheet" href="./playlist.css">
-</head>
-<body>
-<div class="container">
-<div class="left">
-    <img src="./Assets/Spotify logo.svg" alt="logo">
-    <div class="home-nav">
-     <div class="home">
-        <img src="./Assets/fi-ss-home.svg" alt="home">
-        <a href="index.html">Home</a>
-     </div>
-     <div class="home">
-     <img src="./Assets/fi-rs-search.png" alt="search">
-     <a href="#">Search</a>
-     </div>
-     <div class="home">
-        <img src="./Assets/library.svg" alt="library">
-        <a href="#" >Library</a>
+    <link rel="stylesheet" href="./playlist.css" />
+  </head>
+  <body>
+    <div class="left-bar">
+      <div class="left-content">
+        <div>
+          <img src="./Assets/Spotify logo.svg" alt="logo" class="logo" />
         </div>
-    </div>
-
-    <div class="playlist-nav">
-        <h2>PLAYLISTS</h2>
-     <div class="playlist">
-     <img src="./Assets/plus.svg" alt="playlist">
-     <h2 >Create Playlist</h2>
-     </div>
-     <div class="playlist">
-        <img src="./Assets/liked-logo.png" alt="likedsong">
-        <h2>Liked Songs</h2>
+        <div class="home-container">
+          <div class="home active">
+            <img src="./Assets/fi-ss-home.svg" alt="home-icon" />
+            <h2 class="left-nav">Home</h2>
+          </div>
+          <div class="search">
+            <img src="./Assets/fi-rs-search.png" alt="search-icon" />
+            <h2 class="left-nav">Search</h2>
+          </div>
+          <div class="library">
+            <img src="./Assets/library.svg" alt="library-icon" />
+            <h2 class="left-nav">Library</h2>
+          </div>
         </div>
-        <div class="line"></div>
+        <div class="playlist-container">
+          <h1>PLAYLISTS</h1>
+          <div class="playlist">
+            <img
+              src="./Assets/Frame.png"
+              alt="plus"
+              class="leftnavimg"
+              style="background-color: #ffffff"
+            />
+            <a href="playlist.html">Create Playlist</a>
+          </div>
+
+          <div class="liked-songs">
+            <img src="./Assets/love.svg" alt="liked" class="leftnavimg" />
+            <h2 class="left-nav">Liked Songs</h2>
+          </div>
+        </div>
+        <div class="left-pic">
+          <img src="./Assets/person-pic.svg" alt="pic" />
+        </div>
+      </div>
     </div>
-
-   <div class="left-nav-bottom">
-    <img src="./Assets/pose.svg" alt="bottom">
-   </div>
-</div>
-
-
-
-</div>
-</body>
+  </body>
 </html>
