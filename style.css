@@ -140,6 +140,7 @@ text-align: left;
     margin-top: 10px;
     margin-left: 10px;
     display: flex;
+    /* overflow-y: scroll; */
     justify-content: space-between;
     align-items: center;
     background: #212121; 
@@ -149,6 +150,7 @@ text-align: left;
     display: flex;
     align-items: center;
     gap: 1rem;
+    /* position: fixed; */
  }
  .left-right>img{
     width: 30px;
@@ -167,6 +169,7 @@ text-align: left;
     border-radius: 10px;
  }
 .goodmorning{
+  /* overflow-y: scroll; */
     padding: 0 40px;
     color:#FFFFFF;
 }
@@ -178,7 +181,8 @@ margin:8px 0px;
 .right-hero{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;   
+    justify-content: space-between;
+    /* overflow-y: scroll; */
 }
 .one{
     display: flex;
@@ -212,7 +216,9 @@ margin:8px 0px;
 .shows{
     /* padding: 0px 50px; */
     color: whitesmoke;
+   
 }
+
 .shows>div{
     display: flex;
     align-items: center;
@@ -241,6 +247,7 @@ margin:8px 0px;
     flex-wrap: wrap;
     gap:0.8rem;
     justify-content: space-between ;
+    overflow-y: scroll;
 }
 .cards{
   
@@ -288,7 +295,7 @@ margin:8px 0px;
     
    
   }
-  /* <!-- ===========Bottom left============== */
+  
   .songName{
     display: flex;
     align-items: center;
@@ -322,7 +329,7 @@ margin:8px 0px;
  .green-heart{
     height: 30px;
  }
-  /* <!-- ===========Bottom Middle============= */
+ 
   .playControls{
     display: flex;
     flex-direction: column;
@@ -370,7 +377,7 @@ margin:8px 0px;
    cursor: pointer;
   }
  
-  /* <!-- ===========Bottom Right============= */
+  
   .volume{
     display: flex;
     align-items: center;
@@ -391,7 +398,7 @@ margin:8px 0px;
    cursor: pointer;
   }
   
-/* *******************Green Notice*********** */
+
  .green-notice{
     display: flex;
     align-items: center;
